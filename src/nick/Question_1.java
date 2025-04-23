@@ -16,7 +16,7 @@ public class Question_1 {
         }
     }
 }
-/**
+/*
  * Odd or Even
  * Write  a method which can identify given number is even or odd
  *          Output ex:
