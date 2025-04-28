@@ -24,9 +24,4 @@ public class Question_1 {
             System.out.println("Odd");
         }
     }
-
-
-
-    }
-
 }
