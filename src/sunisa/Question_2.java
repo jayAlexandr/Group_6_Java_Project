@@ -4,9 +4,12 @@ public class Question_2 {
 
     public static void main(String[] args) {
 
-        int numbers = 30;
+        finRa(30);
 
-        for (int i = 1; i <= numbers; i++) {
+    }
+
+    public static void finRa(int number) {
+        for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA ");
             } else if (i % 3 == 0) {
@@ -14,7 +17,7 @@ public class Question_2 {
             } else if (i % 5 == 0) {
                 System.out.print("RA ");
             } else {
-                System.out.print(i + " " );
+                System.out.print(i + " ");
             }
         }
     }
