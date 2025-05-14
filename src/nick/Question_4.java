@@ -3,7 +3,7 @@ package nick;
 public class Question_4 {
     public static void main(String[] args) {
 
-        System.out.println(reverseNegativeNumber(92165));
+        System.out.println(reverseNegativeNumber(-92165));
     }
 
     public static int reverseNegativeNumber(int num) {
