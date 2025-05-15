@@ -4,17 +4,15 @@ public class Question_3 {
 
     public static void main(String[] args) {
 
-        System.out.println(swap("Programing Language", "Java"));
+        int a = 20;
+        int b = 10;
 
-    }
+        a = a + b;
+        b = a - b;
+        a = a - b;
 
-    public static String swap(String word1, String word2) {
-
-        word1 = word1 + word2;
-        word2 = word1.substring(0, word1.length() - word2.length());
-        word1 = word1.substring(word2.length());
-
-        return word1 + " " + word2;
+        System.out.println("a: " + a );
+        System.out.println("b: " + b );
     }
 }
 
