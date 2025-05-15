@@ -4,11 +4,11 @@ public class Question_2 {
 
     public static void main(String[] args) {
 
-        finRa(30);
+        finra(30);
 
     }
 
-    public static void finRa(int number) {
+    public static void finra(int number) {
         for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA ");
