@@ -21,7 +21,6 @@ public class Question_5 {
 
             result += ch + String.valueOf(count);
         }
-
         return result;
     }
 }
