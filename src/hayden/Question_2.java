@@ -15,5 +15,25 @@ public class Question_2 {
          For numbers which are a multiple of both 3 and 5,
          print "FINRA" instead of the number.
          */
+
+        finRa(30);
+
+    }
+
+    private static void finRa(int num) {
+
+        for (int i = 1; i <= num; i++) {
+
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("FINRA ");
+            } else if (i % 3 == 0) {
+                System.out.print("FIN ");
+            } else if (i % 5 == 0) {
+                System.out.print("RA ");
+            } else {
+                System.out.print(i + " ");
+            }
+
+        }
     }
 }
