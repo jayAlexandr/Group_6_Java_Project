@@ -14,11 +14,11 @@ public class Question_10 {
 
         int result = arrayNums[0];
 
-        for (int i = 0; i < arrayNums.length; i++) {
+        for (int arrayNum : arrayNums) {
 
-            if (arrayNums[i] < result){
+            if (arrayNum < result) {
 
-                result = arrayNums[i];
+                result = arrayNum;
             }
         }
         return result;
